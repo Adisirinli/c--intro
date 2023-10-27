@@ -63,11 +63,12 @@ int num4 = int.Parse(Console.ReadLine());
 string str4 = num4.ToString();
 while (true)
 {
-    if (str4.Length == 3) 
+    if (str4.Length == 3) //yoxluyur gorur 3ludur
     {
         int numWith7 = num4 * 10 + 7;
-        double result4 = numWith7 * 0.07;
-        Console.WriteLine("Cavab: " + result4);
+        int numWith8 = (numWith7 * 7) / 100;
+      
+        Console.WriteLine("Cavab: " + numWith8);
         break;
     }
     else
