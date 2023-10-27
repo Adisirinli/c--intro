@@ -102,16 +102,16 @@ while (true)
 #endregion
 #endregion
 #region task6
-Console.WriteLine("4 reqemli eded daxil edin");
+Console.WriteLine("4reqemli eded daxil edin");
 int num6 = int.Parse(Console.ReadLine());
 string str6 = num6.ToString();
 while (true)
 {
     if (str6.Length == 4)
     {
-        int firstCalculationPart = (num6 * 20) / 100;
-        int SecondCalculationPart = (firstCalculationPart * 10) / 100;
-        int result = SecondCalculationPart * SecondCalculationPart;
+        double firstCalculationPart = num6 * 0.20;
+        double SecondCalculationPart = firstCalculationPart * 0.10;
+        double result = SecondCalculationPart * SecondCalculationPart;
         Console.WriteLine(result);
         break;
     }
@@ -119,7 +119,7 @@ while (true)
     {
         Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
         str6 = Console.ReadLine();
-    }
+    }
 }
 #endregion
 #region task7
