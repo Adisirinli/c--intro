@@ -135,7 +135,7 @@ while (true)
         string firstPartString = firstPart.ToString();
         string result1 = "5" + firstPartString + "5";
         int resultPart2 = int.Parse(result1);
-        int lastResult = (resultPart2 * 5) / 100;
+        double lastResult = resultPart2 * 0.05;
         Console.WriteLine(lastResult);
         break;
     }
@@ -144,7 +144,7 @@ while (true)
         Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
         str7 = Console.ReadLine();
         str8 = Console.ReadLine();
-    }
+    }
 }
 #endregion
 
