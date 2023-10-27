@@ -79,23 +79,23 @@ while (true)
 }
 #endregion
 #region task5
-Console.WriteLine("4 reqemli eded daxil edin");
-int num5 = int.Parse(Console.ReadLine());
-string str5 = num5.ToString();
+Console.WriteLine("3 reqemli eded daxil edin");
+int num4 = int.Parse(Console.ReadLine());
+string str4 = num4.ToString();
 while (true)
 {
-    if (str5.Length == 4)
+    if (str4.Length == 3) //yoxluyur gorur 3ludur
     {
-        string result2 = "4" + str5 + "44";
-        int resultInt = int.Parse(result2);
-        int lastResult = (resultInt * 44) / 100;
-        Console.WriteLine(lastResult);
+        int numWith7 = num4 * 10 + 7;
+        int numWith8 = (numWith7 * 7) / 100;
+      
+        Console.WriteLine("Cavab: " + numWith8);
         break;
     }
     else
     {
         Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
-        str5 = Console.ReadLine();
+        str4 = Console.ReadLine();
     }
 }
 #endregion
