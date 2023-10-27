@@ -45,7 +45,8 @@ while (true)
 {
     if (str3.Length == 5)
     {
-        double result5 = (num3 * 0.18) * 0.03;
+        double tempresult5 = (num3 * 0.18);
+        double result5 = tempresult5 * 0.03;
         Console.WriteLine(result5);
         break;
     }
@@ -53,7 +54,7 @@ while (true)
     {
         Console.WriteLine("Yanlış formatda eded daxil etdiniz. Yeniden daxil edin.");
         str3 = Console.ReadLine();
-    }
+    }
 }
 #endregion
 #region task4
